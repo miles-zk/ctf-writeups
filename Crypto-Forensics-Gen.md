@@ -1,5 +1,5 @@
 # Crypto, Forensics, General Skills (02/28/2025)
-This was the most productive night I've had on Pico yet, solving many medium difficulty challenges in the Cryptography, Forensics, and General Skills categories. It was a total of 12 challenges, but some of them were very simple, so I've narrowed this writeup down to the eight which were the most interesting to me. I also changed up my style a bit in this writeup, listing the category and difficulty in the headers along with each challenge. Additionally, I tried to be more descriptive with my thought processes in approaching these challenges.
+This was the most productive night I had on Pico yet, having completed many medium difficulty challenges in the Cryptography, Forensics, and General Skills categories. It was a total of 12 challenges, but some of them were very simple, so I've narrowed this writeup down to the eight which were the most interesting to me. I also changed up my style a bit in this writeup, listing the category and difficulty in the headers along with each challenge. Additionally, I tried to be more descriptive with my thought processes in approaching these challenges.
 
 Completed Challenges:\
 [Eavesdrop](https://play.picoctf.org/practice/challenge/264?category=4&difficulty=2&page=2)\
