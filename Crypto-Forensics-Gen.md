@@ -90,7 +90,7 @@ By using an [online substitution cipher](https://cryptii.com/pipes/alphabetical-
 ![substitutionFlag](https://i.imgur.com/yyrMNHI.png)
 
 ## PcapPoisoning (General Skills - Medium)
-This challenge gives us a .pcap file with the description telling us that the flag is hiding inside of it. Just like in the **Eavesdrop** challenge, I started out by opening the pcap file in Wireshark to a very ugly sight: 1510 packets of FTP and TCP data.
+This challenge gives us a .pcap file with the description telling us that the flag is hiding inside of it. Just like in the **Eavesdrop** challenge, I started out by opening the pcap file in Wireshark to a very ugly sight: 1510 packets of mostly FTP and TCP data.
 
 ![FTPCAP](https://i.imgur.com/Jh4y00w.png)
 
@@ -98,4 +98,4 @@ My intuition for this challenge was to search the frame for picoCTF in case the 
 
 ![frameContains](https://i.imgur.com/XqlOWVk.png)
 
-With this result, I found the flag in plaintext located in the binary which after some light formatting would reveal the flag: `picoCTF{P64P_4N4L7S1S_SU55355FUL_31010c46}`
+With this result, I found the flag in plaintext located within the binary of the packet, which after some light formatting would reveal the flag: `picoCTF{P64P_4N4L7S1S_SU55355FUL_31010c46}`
