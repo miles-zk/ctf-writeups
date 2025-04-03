@@ -13,14 +13,14 @@ This challenge gives us a Windows Log file and tells us 3 events which we should
 
 To find this piece of the flag, I searched for EventIDs related to software installation. EventID 1033 was a hit for the installation of software called `Totally_Legit_Software` and the event log had a Base64 encoded string which when decoded produces a part of the flag.
 
-![flagpiece1](https://i.imgur.com/jFUesAA.png)
+![flagpiece1](https://i.imgur.com/jFUesAA.png)<br>
 The base64 translates to: picoCTF{Ev3nt_vi3wv3r_
 
 `2. They ran the installed software but it seemed to do nothing`
 
 "It seemed to do nothing" is a red herring here based on what is said in the next sentence, with the description in part 3, I inferred that the software added itself in the startup apps, which might be reflected in a Windows Registry related EventID. The hit for this piece of the flag was located in an event with the ID of 4657, and contained another Base64 encoded string.<br>
 
-![flagpiece2](https://i.imgur.com/myeDzfV.png)
+![flagpiece2](https://i.imgur.com/myeDzfV.png)<br>
 The base64 translates to: 1s_a_pr3tty_us3ful_
 
 `3. Now every time they bootup and login to their computer, a black command prompt screen quickly opens and closes and their computer shuts down instantly.`
