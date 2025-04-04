@@ -12,7 +12,7 @@ After searching through 831 pages of empty Hex content, 832 shows a long sequenc
 
 ![forgottenflag](https://i.imgur.com/cF05qtt.png)
 
-Upon entering this massive string of hex values into [Cyberchef](https://gchq.github.io/CyberChef/)and decoding from Hex, the flag is produced.
+Upon entering this massive string of hex values into [Cyberchef](https://gchq.github.io/CyberChef/) and decoding from Hex, the flag is produced.
 
 ![flag](https://i.imgur.com/9B7SF5E.png)
 
